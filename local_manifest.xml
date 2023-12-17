@@ -1,39 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="dev" fetch="https://github.com/mt6768-dev" />
-  <remote name="melab" fetch="https://gitlab.com/Arafattex" />
   <remote name="emorafsan" fetch="https://github.com/emorafsan" />
-  <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
-  <remote name="R9Lab" fetch="https://gitlab.com/R9Lab" />
-  <remote name="los" fetch="https://github.com/LineageOS" />
-  <remote name="Arrow" fetch="https://github.com/ArrowOS" />
-  <remote name="mind" fetch="https://gitlab.com/MindTheGapps" />
-  <remote name="rem" fetch="https://github.com" />
-
-
- <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="los" revision="lineage-20"/>
-     
+  <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
+  
  <!-- Device Tree -->
-  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="emorafsan" revision="derp"/>
+  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="emorafsan" revision="Rising-13"/>
 
- <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="dev" revision="lineage-20"/>
-
- <!-- vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>
-
- <!--vendor tree-->
-  <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="dev" revision="lineage-20"/>
-
- <!--Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20"/>
+ <!-- Mtk Hardware -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="emorafsan" revision="lineage-20"/>
 
  <!-- Mtk sepolicy -->
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="emorafsan" revision="arrow-14.0"/>
 
- <!-- Extra -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+ <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
   
 </manifest>
