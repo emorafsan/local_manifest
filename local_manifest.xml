@@ -6,7 +6,7 @@
   <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
   
  <!-- Device Tree -->
-  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="shakib" revision="voltage-14"/>
+  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="shakib" revision="awaken-14"/>
 
  <!-- Mtk Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="emorafsan" revision="lineage-20"/>
