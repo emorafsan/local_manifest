@@ -3,11 +3,10 @@
 
   <remote name="shakib" fetch="https://github.com/Shakib-BD" />
   <remote name="emorafsan" fetch="https://github.com/emorafsan" />
-  <remote name="lineage" fetch="https://github.com/LineageOS" />
   <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
   
  <!-- Device Tree -->
-  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="shakib" revision="alpha-13"/>
+  <project path="device/xiaomi/stone" name="device_xiaomi_stone" remote="shakib" revision="crdroid-13"/>
 
  <!-- Mtk Hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="emorafsan" revision="lineage-20"/>
@@ -18,10 +17,4 @@
  <!-- Clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
 
-<!-- Remove Project -->
- <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64"/>
-  
-<!-- External Webview -->
- <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="lineage" revision="backup/main_20230314" />
-  
 </manifest>
