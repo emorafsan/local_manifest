@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="emorafsan" fetch="https://github.com/emorafsan" />
+  <!--  <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/> -->
+  
+  <!-- Device Tree -->
+  <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="emorafsan" revision="lineage-21"/>
+  
+  <!-- Clang -->
+  <!-- <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/> -->
+
+</manifest>
