@@ -6,6 +6,9 @@
   
   <!-- Device Tree -->
   <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="emorafsan" revision="lineage-21"/>
+
+  <!-- Device Tree -->
+  <project path="vendor/xiaomi/rock" name="vendor_xiaomi_rock" remote="emorafsan" revision="lineage-21"/>
   
   <!-- Clang -->
   <!-- <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/> -->
